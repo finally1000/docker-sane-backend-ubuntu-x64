@@ -1,4 +1,4 @@
-## SANE Backend build environment (Ubuntu) Dockerfile
+## SANE Backend (with libusb1.0) build environment (Ubuntu) Dockerfile
 
 
 ### Base Docker Image
@@ -10,9 +10,9 @@
 
 1. Install [Docker](https://www.docker.com/).
 
-2. Download : `docker pull oingo/docker-ubuntu-sane-backend-build`
+2. Download : `docker pull oingo/docker-ubuntu-sane-backend-libusb1-build`
 
 
 ### Usage
 
-    docker run -it -v <sane-backend-volume>:/root/project oingo/docker-ubuntu-sane-backend-build /bin/bash
+    docker run -it -v <sane-backend-volume>:/root/project oingo/docker-ubuntu-sane-backend-libusb1-build /bin/bash
