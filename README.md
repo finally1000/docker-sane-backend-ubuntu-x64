@@ -10,9 +10,9 @@
 
 1. Install [Docker](https://www.docker.com/).
 
-2. Download : `docker pull oingo/docker-ubuntu-sane-backend-libusb1-build`
+2. Download : `docker pull oingo/sane-backend-ubuntu-x64`
 
 
 ### Usage
 
-    docker run -it -v <sane-backend-volume>:/root/project oingo/docker-ubuntu-sane-backend-libusb1-build /bin/bash
+    docker run -it -v <sane-backend-volume>:/root/project oingo/sane-backend-ubuntu-x64 /bin/bash
